@@ -1,7 +1,7 @@
 package exception;
 
 public class contactoNoEncontradoException  extends RuntimeException{
-    public contactoNoEncontradoException(String mensagem){
-        super(mensagem);
+    public contactoNoEncontradoException(String mensaje){
+        super(mensaje);
     }
 }

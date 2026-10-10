@@ -1,19 +1,29 @@
 package model;
 
-public class  Contactos {
+public class  Inscriptos {
 
     private int id;
     private String nombre;
     private String apellido;
     private String email;
     private String telefono;
+    private int dni;
 
-    public Contactos(int id, String nombre, String apellido, String email, String telefono) {
+    public Inscriptos(int id, String nombre, String apellido, String email, String telefono, int dni) {
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
         this.email = email;
         this.telefono = telefono;
+        this.dni = dni;
+    }
+
+    public int getDni() {
+        return dni;
+    }
+
+    public void setDni(int dni) {
+        this.dni = dni;
     }
 
     public int getId() {
